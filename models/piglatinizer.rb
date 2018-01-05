@@ -10,9 +10,9 @@ class PigLatinizer
       str + 'way'
     elsif consonants.include?(str2[0]) && consonants.include?(str2[1])
       str[2..-1] + str[0..1] + 'ay'
-    elsif consonants.include?(str[0]) && consonants.include?(str[1]) && consonants.include?(str[2])
+    elsif consonants.include?(str2[0]) && consonants.include?(str2[1]) && consonants.include?(str2[2])
       'ay' + str
-    elsif consonants.include?(str[0])
+    elsif consonants.include?(str2[0])
       str[1..-1] + str[0] + 'ay'
     else
       str # return unchanged
