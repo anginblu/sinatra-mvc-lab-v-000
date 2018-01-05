@@ -1,4 +1,4 @@
-class PigLatinize
+class PigLatinizer
   def initialize(text)
     @text = text
   end
