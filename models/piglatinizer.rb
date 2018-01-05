@@ -10,4 +10,6 @@ class PigLatinizer
     arr2.join(" ")
   end
 
+  def to_pig_latin
+
 end
