@@ -5,9 +5,7 @@ class PigLatinizer
   end
 
   def piglatinize(text)
-    arr = text.split(" ")
-    arr2 = arr.map {|word| word.reverse + "ay"}
-    arr2.join(" ")
+    word.reverse + "ay"
   end
 
   def to_pig_latin(text)
