@@ -5,7 +5,6 @@ class PigLatinizer
     first = array.shift
     last = array.pop
     array.join + last + first + "ay"
-     + "ay"
   end
 
   def to_pig_latin(text)
