@@ -10,7 +10,7 @@ class PigLatinizer
     arr2.join(" ")
   end
 
-  def to_pig_latin
+  def to_pig_latin(text)
     arr = text.split(" ")
   end
 end
