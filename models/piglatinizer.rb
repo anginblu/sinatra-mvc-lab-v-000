@@ -1,7 +1,7 @@
 class PigLatinizer
 
   def piglatinize(word)
-    word.reverse + "ay"
+    word.split + "ay"
   end
 
   def to_pig_latin(text)
