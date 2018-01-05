@@ -2,6 +2,9 @@ class PigLatinizer
 
   def piglatinize(word)
     arr = word.split("")
+    first = array.shift
+    last = array.pop
+    array.map {}
      + "ay"
   end
 
