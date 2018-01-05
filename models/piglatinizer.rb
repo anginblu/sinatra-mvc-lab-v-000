@@ -6,7 +6,6 @@ class PigLatinizer
 
   def piglatinize(text)
     text.reverse + "ay"
-    arr2.join(" ")
   end
 
   def to_pig_latin(text)
