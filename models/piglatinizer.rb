@@ -4,7 +4,7 @@ class PigLatinizer
     alpha = ('a'..'z').to_a
     vowels = %w[a e i o u]
     consonants = alpha - vowels
-    eles =  %w[a e i o u]
+    vowels_else =  %w[a e i o u]
 
     if vowels.include?(str[0])
       str + 'ay'
