@@ -4,7 +4,7 @@ class PigLatinizer
     arr = word.split("")
     first = array.shift
     last = array.pop
-    array.joint("")
+    array.join + last + first + "ay"
      + "ay"
   end
 
