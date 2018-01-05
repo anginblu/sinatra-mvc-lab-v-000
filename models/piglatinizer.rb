@@ -11,5 +11,6 @@ class PigLatinizer
   end
 
   def to_pig_latin
-
+    arr = text.split(" ")
+  end
 end
